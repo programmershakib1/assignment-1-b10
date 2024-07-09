@@ -32,6 +32,7 @@ body{
 .banner-section-img img{
     width: 240.28px;
     height: 240px;
+    margin-top: 25px;
 }
 .banner-section-text{
     width: 998px;
@@ -88,7 +89,7 @@ body{
     margin-top: 74px;
     padding: 80px 97px 80px 97px;
     border-radius: 16px;
-    background: rgba(13, 19, 33, 0.014);
+    background: rgba(13, 19, 33, 0.021);
 }
 /* main section first part styles  */
 .main-section-first-part{
@@ -104,6 +105,7 @@ body{
     width: 852px;
     height: 39px;
     text-align: center;
+    margin-bottom: 25px;
 }
 .main-section-first-part p{
     width: 852px;
@@ -299,6 +301,7 @@ body{
     font-size: 32px;
     font-weight: 800;
     text-align: center;
+    margin-bottom: 25px;
 }
 .target-section-content p{
     width: 852px;
@@ -377,7 +380,8 @@ body{
     margin: 0 auto;
     margin-top: 49px;
     padding: 64px 48px 64px 48px;
-    background-image: url(../images/handshake.jpg);
+    /* background-image: url(../images/handshake.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(14, 8, 8, 0.39)), url(../images/handshake.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -406,7 +410,6 @@ body{
     width: 548px;
     height: 57px;
     padding: 19px 20px 19px 20px;
-    margin: 0px 16px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
@@ -439,6 +442,12 @@ body{
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
+}
+#submit-btn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 /* footer section styles  */
